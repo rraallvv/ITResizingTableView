@@ -1,0 +1,273 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		91B3EFB0169C87BA007503CD /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 91B3EFAF169C87BA007503CD /* main.m */; };
+		91B3EFB7169C87BA007503CD /* ITAppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 91B3EFB6169C87BA007503CD /* ITAppDelegate.m */; };
+		91B3EFBA169C87BA007503CD /* MainMenu.xib in Resources */ = {isa = PBXBuildFile; fileRef = 91B3EFB8169C87BA007503CD /* MainMenu.xib */; };
+		91B3EFC6169C89A8007503CD /* NSView+NSLayoutConstraintFilter.m in Sources */ = {isa = PBXBuildFile; fileRef = 91B3EFC5169C89A8007503CD /* NSView+NSLayoutConstraintFilter.m */; };
+		E4B9E7A11B3C55C000B1B2E1 /* Cocoa.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = E4B9E7A01B3C55C000B1B2E1 /* Cocoa.framework */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXFileReference section */
+		91B3EF9F169C87BA007503CD /* ITResizingTableView.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = ITResizingTableView.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		91B3EFAB169C87BA007503CD /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		91B3EFAF169C87BA007503CD /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		91B3EFB5169C87BA007503CD /* ITAppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ITAppDelegate.h; sourceTree = "<group>"; };
+		91B3EFB6169C87BA007503CD /* ITAppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ITAppDelegate.m; sourceTree = "<group>"; };
+		91B3EFB9169C87BA007503CD /* en */ = {isa = PBXFileReference; lastKnownFileType = file.xib; name = en; path = en.lproj/MainMenu.xib; sourceTree = "<group>"; };
+		91B3EFC4169C89A8007503CD /* NSView+NSLayoutConstraintFilter.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "NSView+NSLayoutConstraintFilter.h"; sourceTree = "<group>"; };
+		91B3EFC5169C89A8007503CD /* NSView+NSLayoutConstraintFilter.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "NSView+NSLayoutConstraintFilter.m"; sourceTree = "<group>"; };
+		E4B9E7A01B3C55C000B1B2E1 /* Cocoa.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Cocoa.framework; path = System/Library/Frameworks/Cocoa.framework; sourceTree = SDKROOT; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		91B3EF9C169C87BA007503CD /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				E4B9E7A11B3C55C000B1B2E1 /* Cocoa.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		91B3EF94169C87BA007503CD = {
+			isa = PBXGroup;
+			children = (
+				91B3EFA9169C87BA007503CD /* ITResizingTableView */,
+				91B3EFA2169C87BA007503CD /* Frameworks */,
+				91B3EFA0169C87BA007503CD /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		91B3EFA0169C87BA007503CD /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				91B3EF9F169C87BA007503CD /* ITResizingTableView.app */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		91B3EFA2169C87BA007503CD /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				E4B9E7A01B3C55C000B1B2E1 /* Cocoa.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		91B3EFA9169C87BA007503CD /* ITResizingTableView */ = {
+			isa = PBXGroup;
+			children = (
+				91B3EFB5169C87BA007503CD /* ITAppDelegate.h */,
+				91B3EFB6169C87BA007503CD /* ITAppDelegate.m */,
+				91B3EFB8169C87BA007503CD /* MainMenu.xib */,
+				91B3EFC4169C89A8007503CD /* NSView+NSLayoutConstraintFilter.h */,
+				91B3EFC5169C89A8007503CD /* NSView+NSLayoutConstraintFilter.m */,
+				91B3EFAA169C87BA007503CD /* Supporting Files */,
+			);
+			path = ITResizingTableView;
+			sourceTree = "<group>";
+		};
+		91B3EFAA169C87BA007503CD /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				91B3EFAB169C87BA007503CD /* Info.plist */,
+				91B3EFAF169C87BA007503CD /* main.m */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		91B3EF9E169C87BA007503CD /* ITResizingTableView */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 91B3EFBD169C87BA007503CD /* Build configuration list for PBXNativeTarget "ITResizingTableView" */;
+			buildPhases = (
+				91B3EF9B169C87BA007503CD /* Sources */,
+				91B3EF9C169C87BA007503CD /* Frameworks */,
+				91B3EF9D169C87BA007503CD /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = ITResizingTableView;
+			productName = ITResizingTableView;
+			productReference = 91B3EF9F169C87BA007503CD /* ITResizingTableView.app */;
+			productType = "com.apple.product-type.application";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		91B3EF96169C87BA007503CD /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				CLASSPREFIX = IT;
+				LastUpgradeCheck = 0700;
+				ORGANIZATIONNAME = "Ilija Tovilo";
+			};
+			buildConfigurationList = 91B3EF99169C87BA007503CD /* Build configuration list for PBXProject "ITResizingTableView" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+			);
+			mainGroup = 91B3EF94169C87BA007503CD;
+			productRefGroup = 91B3EFA0169C87BA007503CD /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				91B3EF9E169C87BA007503CD /* ITResizingTableView */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		91B3EF9D169C87BA007503CD /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				91B3EFBA169C87BA007503CD /* MainMenu.xib in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		91B3EF9B169C87BA007503CD /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				91B3EFB0169C87BA007503CD /* main.m in Sources */,
+				91B3EFB7169C87BA007503CD /* ITAppDelegate.m in Sources */,
+				91B3EFC6169C89A8007503CD /* NSView+NSLayoutConstraintFilter.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXVariantGroup section */
+		91B3EFB8169C87BA007503CD /* MainMenu.xib */ = {
+			isa = PBXVariantGroup;
+			children = (
+				91B3EFB9169C87BA007503CD /* en */,
+			);
+			name = MainMenu.xib;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		91B3EFBB169C87BA007503CD /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_ENABLE_OBJC_EXCEPTIONS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				MACOSX_DEPLOYMENT_TARGET = 10.8;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = macosx;
+			};
+			name = Debug;
+		};
+		91B3EFBC169C87BA007503CD /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = YES;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_ENABLE_OBJC_EXCEPTIONS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				MACOSX_DEPLOYMENT_TARGET = 10.8;
+				SDKROOT = macosx;
+			};
+			name = Release;
+		};
+		91B3EFBE169C87BA007503CD /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				COMBINE_HIDPI_IMAGES = YES;
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				INFOPLIST_FILE = "$(SRCROOT)/ITResizingTableView/Info.plist";
+				MACOSX_DEPLOYMENT_TARGET = 10.7;
+				PRODUCT_BUNDLE_IDENTIFIER = "ch.ilijatovilo.${PRODUCT_NAME:rfc1034identifier}";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				WRAPPER_EXTENSION = app;
+			};
+			name = Debug;
+		};
+		91B3EFBF169C87BA007503CD /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				COMBINE_HIDPI_IMAGES = YES;
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				INFOPLIST_FILE = "$(SRCROOT)/ITResizingTableView/Info.plist";
+				MACOSX_DEPLOYMENT_TARGET = 10.7;
+				PRODUCT_BUNDLE_IDENTIFIER = "ch.ilijatovilo.${PRODUCT_NAME:rfc1034identifier}";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				WRAPPER_EXTENSION = app;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		91B3EF99169C87BA007503CD /* Build configuration list for PBXProject "ITResizingTableView" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				91B3EFBB169C87BA007503CD /* Debug */,
+				91B3EFBC169C87BA007503CD /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		91B3EFBD169C87BA007503CD /* Build configuration list for PBXNativeTarget "ITResizingTableView" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				91B3EFBE169C87BA007503CD /* Debug */,
+				91B3EFBF169C87BA007503CD /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 91B3EF96169C87BA007503CD /* Project object */;
+}
